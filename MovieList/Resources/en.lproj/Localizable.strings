@@ -1,0 +1,67 @@
+// Common
+"app.name" = "Movie List";
+"ok" = "OK";
+"cancel" = "Cancel";
+"error" = "Error";
+"success" = "Success";
+"search" = "Search";
+"delete" = "Delete";
+"remove" = "Remove";
+"rename" = "Rename";
+"move" = "Move";
+"add" = "Add";
+"create" = "Create";
+"new" = "New";
+
+// Movies
+"movies.title" = "Movies";
+"movies.search.placeholder" = "Search movies...";
+"movies.empty" = "No movies found";
+"movies.error.loading" = "Error loading movies";
+"movies.no.results" = "No Movies Found";
+"movies.no.results.message" = "Try searching for a different movie";
+
+// Movie Details
+"movie.details.title" = "Movie Details";
+"movie.details.release.date" = "Release Date";
+"movie.details.rating" = "Rating";
+"movie.details.overview" = "Overview";
+"movie.details.add.to.favorites" = "Add to Favorites";
+"movie.details.remove.from.favorites" = "Remove from Favorites";
+"movie.details.ratings" = "Ratings";
+"movie.details.plot" = "Plot";
+"movie.details.director" = "Director";
+"movie.details.writer" = "Writer";
+"movie.details.actors" = "Actors";
+"movie.details.genre" = "Genre";
+"movie.details.language" = "Language";
+"movie.details.country" = "Country";
+"movie.details.awards" = "Awards";
+"movie.details.box.office" = "Box Office";
+"movie.details.production" = "Production";
+"movie.details.dvd.release" = "DVD Release";
+"movie.details.rating.imdb" = "IMDb";
+"movie.details.rating.metascore" = "Metascore";
+
+// Favorites
+"favorites.title" = "Favorites";
+"favorites.empty" = "No favorite movies yet";
+"favorites.lists.title" = "Favorite Lists";
+"favorites.lists.empty" = "No Favorite Lists";
+"favorites.lists.empty.message" = "Create a new list to start adding your favorite movies";
+"favorites.lists.add" = "Add List";
+"favorites.lists.new" = "New List";
+"favorites.lists.name" = "List Name";
+"favorites.lists.movies.count" = "%d movies";
+"favorites.lists.delete.title" = "Delete List";
+"favorites.lists.delete.message" = "Are you sure you want to delete this list? This action cannot be undone.";
+"favorites.lists.rename.title" = "Rename List";
+"favorites.lists.move.title" = "Move to List";
+"favorites.movies.empty" = "No Movies";
+"favorites.movies.empty.message" = "Add movies to this list to see them here";
+"favorites.movies.added" = "Added %@";
+
+// Settings
+"settings.title" = "Settings";
+"settings.app.info" = "App Info";
+"settings.version" = "Version"; 

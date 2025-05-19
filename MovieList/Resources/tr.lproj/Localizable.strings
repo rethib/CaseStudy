@@ -1,0 +1,65 @@
+// Common
+"app.name" = "Film Listesi";
+"ok" = "Tamam";
+"cancel" = "İptal";
+"error" = "Hata";
+"success" = "Başarılı";
+"search" = "Ara";
+"delete" = "Sil";
+"remove" = "Kaldır";
+"rename" = "Yeniden Adlandır";
+"move" = "Taşı";
+"add" = "Ekle";
+"create" = "Oluştur";
+"new" = "Yeni";
+
+// Movies
+"movies.title" = "Filmler";
+"movies.search.placeholder" = "Film ara...";
+"movies.empty" = "Film bulunamadı";
+"movies.error.loading" = "Filmler yüklenirken hata oluştu";
+"movies.no.results" = "Film Bulunamadı";
+"movies.no.results.message" = "Farklı bir film aramayı deneyin";
+
+// Movie Details
+"movie.details.title" = "Film Detayları";
+"movie.details.release.date" = "Yayın Tarihi";
+"movie.details.rating" = "Puan";
+"movie.details.overview" = "Özet";
+"movie.details.add.to.favorites" = "Favorilere Ekle";
+"movie.details.remove.from.favorites" = "Favorilerden Çıkar";
+"movie.details.ratings" = "Puanlar";
+"movie.details.plot" = "Konu";
+"movie.details.director" = "Yönetmen";
+"movie.details.writer" = "Senarist";
+"movie.details.actors" = "Oyuncular";
+"movie.details.genre" = "Tür";
+"movie.details.language" = "Dil";
+"movie.details.country" = "Ülke";
+"movie.details.awards" = "Ödüller";
+"movie.details.box.office" = "Gişe";
+"movie.details.production" = "Yapım";
+"movie.details.dvd.release" = "DVD Çıkış Tarihi";
+
+// Favorites
+"favorites.title" = "Favoriler";
+"favorites.empty" = "Henüz favori film yok";
+"favorites.lists.title" = "Favori Listeleri";
+"favorites.lists.empty" = "Favori Liste Yok";
+"favorites.lists.empty.message" = "Favori filmlerinizi eklemek için yeni bir liste oluşturun";
+"favorites.lists.add" = "Liste Ekle";
+"favorites.lists.new" = "Yeni Liste";
+"favorites.lists.name" = "Liste Adı";
+"favorites.lists.movies.count" = "%d film";
+"favorites.lists.delete.title" = "Listeyi Sil";
+"favorites.lists.delete.message" = "Bu listeyi silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.";
+"favorites.lists.rename.title" = "Listeyi Yeniden Adlandır";
+"favorites.lists.move.title" = "Listeye Taşı";
+"favorites.movies.empty" = "Film Yok";
+"favorites.movies.empty.message" = "Filmleri buraya eklemek için listeye film ekleyin";
+"favorites.movies.added" = "%@ tarihinde eklendi";
+
+// Settings
+"settings.title" = "Ayarlar";
+"settings.app.info" = "Uygulama Bilgisi";
+"settings.version" = "Versiyon"; 

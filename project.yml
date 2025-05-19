@@ -1,0 +1,83 @@
+name: MovieList
+options:
+  bundleIdPrefix: com.movielist
+  deploymentTarget:
+    iOS: 16.0
+  xcodeVersion: "15.0"
+  generateEmptyDirectories: true
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: 5.9
+    DEVELOPMENT_TEAM: "" # Add your team ID here
+    MARKETING_VERSION: 1.0
+    CURRENT_PROJECT_VERSION: 1
+    LOCALIZATION_PREFERS_STRING_CATALOGS: NO
+
+schemes:
+  MovieList:
+    build:
+      targets:
+        MovieList: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      coverageTargets:
+        - MovieList
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+    shared: true
+
+targets:
+  MovieList:
+    type: application
+    platform: iOS
+    sources:
+      - path: MovieList
+        excludes:
+          - "**/.DS_Store"
+    settings:
+      base:
+        INFOPLIST_FILE: MovieList/Resources/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.movielist.app
+        GENERATE_INFOPLIST_FILE: NO
+        DEVELOPMENT_LANGUAGE: en
+        LOCALIZED_RESOURCES_FOLDER_PATH: Resources
+    info:
+      path: MovieList/Resources/Info.plist
+      properties:
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(CURRENT_PROJECT_VERSION)"
+        LSRequiresIPhoneOS: true
+        CFBundleDevelopmentRegion: en
+        CFBundleLocalizations:
+          - en
+          - tr
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+        UILaunchStoryboardName: LaunchScreen
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        ITSAppUsesNonExemptEncryption: false
+    coreDataModels:
+      - path: MovieList/Core/CoreData/MovieList.xcdatamodeld
+        currentVersion: MovieList.xcdatamodel
+
+  MovieListTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - MovieListTests
+    dependencies:
+      - target: MovieList 
